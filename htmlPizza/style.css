@@ -1,9 +1,193 @@
-.container{
-    font-size: x-large;
+body{
+ background-color: bisque;
+ height: 100vh;
+ position: relative;
 }
 
-#subject{
-    height: 200px;
-    width: 280px;
+header, .developers{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+header div{
+    padding: 10px;
+    text-align: center;
+    width: 10%;
+}
+header div:hover{
+    transform: scale(1.05);
+}
+ul:hover{
+    transform: scale(1.05);
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  background-color: goldenrod;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.logo{
+    position: relative;
+    height:75px;
+    width: 120px;
+    border-radius: 15%;
+
+}
+.top{
+    text-align: center;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 3em;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 1;
+    content: "";
+    width: 45px;
+    height: 45px;
+    border: solid tomato 4px;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.5;
+
+}
+a{
+    text-decoration: none;
+    color: tomato;
+}
+.developers{
+    position: relative;
+}
+.foto-developer{
+    height: 50px;
+    width: 50px;
+    border: solid tomato 1px;
+    border-radius: 25%;
+   
+}
+.fa-brands, .fa-envelope{
+margin: 10px;
+}
+.main-conteiner{
+    width: 98%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
     
 }
+nav{
+    width: 10%;
+    height: fit-content;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    float: left;
+    padding:5px;
+    z-index: 1;
+    
+}
+main{
+    width: 80%;
+    float: right;
+    height: fit-content;
+    text-align: center;
+}
+#deals ,#pizza, #drinks, #Additives{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+.deal-foto, .pizza-foto, .Drink-foto,.Additives-foto{
+    width:100%;
+    height: 100px;
+    border-radius: 10%;
+}
+.deal-conteiner{
+    text-align: center;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 10px 0;
+}
+/*popup*/
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition:  all 1.5s ease 0s;
+    }
+    /*option to close popup click on area*/
+    .popup_area{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    /*lying class  popup on action*/
+    .popup:target{
+      opacity: 1;
+      visibility: visible;
+    }
+    .popup:target .popup_content{
+      transform: translate(0px , 0px);
+      opacity: 1;
+    }
+    .popup_body{
+     position: relative;
+     top: 0;
+     left:0;
+  
+    }
+    .popup_content{
+      background-color: rgb(168, 69, 3);
+      width:35%;
+      height: 150px;
+      position: relative;
+      top:  200px;
+      left: 35%;  
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+     border: 2px solid rgb(39, 39, 38);
+     border-radius: 10px;
+     transition: all 1.5s ease 0s;
+     opacity: 0;
+     transform: translate(0px, -100%);
+    }
+    .popup_close{
+    position: absolute;
+    border: 1px solid rgb(39, 39, 38);
+     border-radius: 10px;
+    top: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(18, 17, 17);
+    padding-bottom: 20px; 
+    }
+    .btn{
+        cursor: pointer;
+        background-color: brown;
+        height: 25%;
+        width: 100px;
+        border-radius: 15px;
+    }
