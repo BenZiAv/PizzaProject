@@ -52,11 +52,22 @@ create table usersHistory (	orderID char(10)not null, userID char(8) not null,
 							
 
 					
+				
+create table contactForm ( nameContact char(25) not null,fname char(25),tell char(10) not null,
+                           topic char(160),
+						   primary key(name,tell));
+					
+create table newWokers ( nameContact char(25) not null,fname char(25),tell char(10) not null, 
+                           file format (pdf),
+						 primary key(nameContact,tell));
+
 							
 create table ADMIN (Aid char(10) not null,name char(10),
-					orderID char(10),orderID char(10),  /* get orders from users and guests not same keys and length*/
+					orderID char(8),orderID char(10),  /* get orders from users and guests not same keys and length*/
 					dealID char(5),drinkName char(10),additorName char(15),pizzaName char(10),
 					userID char(8),
+					nameContact char(25),tell char(10), /* contuct form and newWokers*/
+					  FOREIGN key(nameContact,tell)REFERENCES users(nameContact,tell),
 					 FOREIGN key(userID)REFERENCES users(userID),
 					 FOREIGN key(pizzaName)REFERENCES pizzaSize(pizzaName),
 					 FOREIGN key(additorName)REFERENCES additors(additorName),
@@ -66,6 +77,7 @@ create table ADMIN (Aid char(10) not null,name char(10),
 					 FOREIGN key(orderID)REFERENCES orderNOuser(orderID),
 					 FOREIGN key(orderID)REFERENCES usersHistory(orderID),
                      primary key(Aid,name));
+
 
 /*שיילטות בכרוב*/
 
