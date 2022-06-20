@@ -52,6 +52,20 @@ create table usersHistory (	orderID char(10)not null, userID char(8) not null,
 							
 
 					
-					
+							
+create table ADMIN (Aid char(10) not null,name char(10),
+					orderID char(10),orderID char(10),  /* get orders from users and guests not same keys and length*/
+					dealID char(5),drinkName char(10),additorName char(15),pizzaName char(10),
+					userID char(8),
+					 FOREIGN key(userID)REFERENCES users(userID),
+					 FOREIGN key(pizzaName)REFERENCES pizzaSize(pizzaName),
+					 FOREIGN key(additorName)REFERENCES additors(additorName),
+					 FOREIGN key(drinkName)REFERENCES drinks(drinkName),
+					 FOREIGN key(dealID)REFERENCES deals(dealID),
+					 FOREIGN key(orderID)REFERENCES orders(orderID),
+					 FOREIGN key(orderID)REFERENCES orderNOuser(orderID),
+					 FOREIGN key(orderID)REFERENCES usersHistory(orderID),
+                     primary key(Aid,name));
+
 
 
