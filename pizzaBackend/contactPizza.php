@@ -26,4 +26,5 @@
       
         </form>
       </div>  
+</body>
 <?php include '..src/inc/footer.php'; ?>
