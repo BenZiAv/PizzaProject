@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\Users\Acer\Desktop\CSS_Project_\style\STYLE_CSS\Div_Header1.CSS\createProfile.css">
-    <script src="https://kit.fontawesome.com/040f4ea875.js" crossorigin="anonymous"></script>
-
-    <title>contuct form</title>
-</head>
+<?php include '../src/inc/header.php'; ?>
 <body style=" background-color: rgb(92, 91, 91);">
     <div class="conteiner">
       <div><a  href="C:\Users\Acer\Desktop\CSS_Project_\style\STYLE_CSS\Div_Header1.CSS\mainpage.html"><h1><i>Home</i></h1></a></div>
