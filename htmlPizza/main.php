@@ -1,4 +1,5 @@
 <?php include '../src/inc/header.php'; ?>
+
 <body>
     <header id="header">
         <div>
