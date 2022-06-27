@@ -5,8 +5,3 @@ const key = cripto.randomBytes(16).toString('hex' ); /*generate key 16 bites las
 const algorithm = 'aes256';  /* type  of algorithm note.js */
 
 fs.writeFile('${__dirname}/key.jsone', JSONE.stringify({key,algorithm}));  /* create jsone key with algorithm */ 
-
-
-function addToPizza(){
-    MouseEvent
-}
