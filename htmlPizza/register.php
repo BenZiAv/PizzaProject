@@ -1,33 +1,56 @@
-<?php include '../src/inc/header.php'; ?>
+
+<?php
+    require_once('../src/config.php');
+    include '../src/inc/header.php'; 
+?>
 
 <body>
-<form action="#register" method="post">
-    <h1>Sign Up</h1>
+<div>
+    <?php
+    if (isset($_POST['creatUser'])){
+        $firstname=     $_POST['firstName'];
+        $lastname=      $_POST['lastName'];
+        $phonenumber=   $_POST['phonenumber'];
+        $email=         $_POST['mail'];
+        $password=      $_POST['passWord'];
+    }
+    ?>
+</div>
+<div>
+    <form action="register.php" class="form" method="post">
 
-    <div>
-        <label for="username">Username:</label>
-        <input type="text" name="username" id="username" value="<?= $inputs['username'] ?? '' ?>">
-    </div>
 
-    <div>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" value="<?= $inputs['email'] ?? '' ?>">
-    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h1>Sign Up</h1>
+                    <hr calss="mb-3">
 
-    <div>
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" value="<?= $inputs['password'] ?? '' ?>">
-    </div>
+                    <label for="firstName">First name:</label>
+                    <input class="form-control" type="text" name="firstName" required>
 
-    <div>
-        <label for="password2">Password Again:</label>
-        <input type="password" name="password2" id="password2" value="<?= $inputs['password2'] ?? '' ?>">
-    </div>
+                    <label for="lastName">Last name:</label>
+                    <input class="form-control" type="text" name="lastName" required>
 
-    <button type="submit">Register</button>
+                    <label for="phonenumber">Phone-Number:</label>
+                    <input class="form-control" type="text" name="phonenumber" required>
 
-    <footer>Already a member? <a href="#login">Login here</a></footer>
+                    <label for="mail">Email:</label>
+                    <input class="form-control" type="email" name="mail" required>
 
-</form>
+                    <label for="passWord">Password:</label>
+                    <input class="form-control" type="password" name="passWord" required>
+
+                    <label for="rePass">Re-password:</label>
+                    <input class="form-control" type="password" name="rePass" required>
+
+                    <hr calss="mb-3">
+                    
+                    <input class="btn btn-primary" type="submit" name="creatUser" value="Sign Up">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
 
 <?php include '../src/inc/footer.php'; ?>
