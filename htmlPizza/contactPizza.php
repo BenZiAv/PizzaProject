@@ -1,30 +1,30 @@
-<?php include '../src/inc/header.php'; ?>
-<body style=" background-color: rgb(92, 91, 91);">
-    <div class="conteiner">
-      <div><a  href="C:\Users\Acer\Desktop\CSS_Project_\style\STYLE_CSS\Div_Header1.CSS\mainpage.html"><h1><i>Home</i></h1></a></div>
-                <form action="/action_page.php" method="post" enctype="multipart/form-data" required>
-                  <h1><i>Our service call you back in 24h</i></h1>
-                    <p id="text3"><i>not friday and subtaday</i></p><br>
-                  <div>
-                  <input tabindex="1" placeholder="Enter your name" type="text" name=""  value="" required>
-                </div>
-                <div>
-                  <input tabindex="2" placeholder="entar your last name"  type="text" name=""  value="" required>
-                </div>
-                <div>
-                  <input tabindex="3" placeholder="phone number" type="tel" name=""  value="" required>
-                </div>
-                <div>
-                  <input tabindex="4" placeholder="enter your mail" type="email" name=""  value="" required>
-                </div>
-                <p id="text3"><i>topic of request</i></p><br>
-                <textarea name="topic" id=""></textarea>
-                <div class="btnflex">
-                  <button tabindex="9" type="submit">Send massege</button>
-                  <button tabindex="10" type="reset">reset data</button>
-               </div>
-                </form>>
-    </div>
-    
+<?php include '../src/inc/header.php';?>
+<body>
+    <div class="container">
+        <form action="index.php">
+      
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Your full name..">
+      
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email..">
+
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+      
+          <label for="gender">Gender</label>
+          <select id="text" name="gender">
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+            <option value="other">Other</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>  
 </body>
-</html>
+<?php include '..src/inc/footer.php'; ?>
