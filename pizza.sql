@@ -78,7 +78,3 @@ create table ADMIN (Aid char(10) not null,name char(10),
 					FOREIGN key(orderID)REFERENCES orderNOuser(orderID),
 					FOREIGN key(orderID)REFERENCES usersHistory(orderID),
                     primary key(Aid,name));
-
-
-/*שיילטות בכרוב*/
-
