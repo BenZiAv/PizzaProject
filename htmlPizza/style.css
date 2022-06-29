@@ -1,5 +1,5 @@
 body{
- background-color: bisque;
+ background-color: rgb(120, 182, 195);
  height: 100vh;
  position: relative;
 }
@@ -60,10 +60,11 @@ footer{
 }
 a{
     text-decoration: none;
-    color: tomato;
+    color: black;
 }
 .developers{
     position: relative;
+    flex-direction: row;
 }
 .foto-developer{
     height: 50px;
@@ -155,7 +156,7 @@ main{
   
     }
     .popup_content{
-      background-color: rgb(168, 69, 3);
+      background-color: cyan;
       width:35%;
       height: 150px;
       position: relative;
@@ -181,7 +182,7 @@ main{
     text-align: center;
     font-size: 2em;
     font-weight: bold;
-    color: rgb(18, 17, 17);
+    color: black(18, 17, 17);
     padding-bottom: 20px; 
     }
     .btn{
@@ -195,17 +196,19 @@ main{
 
     /*----------- Header -----------*/
     	/* Navbar container */
-.navbar {
-    overflow: hidden;
-    background-color: #349beb;
-    font-family: Calibri;
-  }
+    .navbar {
+      overflow: hidden;
+      background-color: #349beb;
+      font-family: Calibri;
+      margin: 25px;
+      width: fit-content;
+    }
   
   /* Links inside the navbar */
   .navbar a {
     float: left;
     font-size: 20px;
-    color: #0c336b;
+    color: #2800aa;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
