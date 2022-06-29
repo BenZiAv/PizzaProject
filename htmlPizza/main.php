@@ -1,5 +1,3 @@
-<?php include '/header.php'; ?>
-
 <body>
     <header id="header">
         <div>

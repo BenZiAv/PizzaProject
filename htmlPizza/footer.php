@@ -1,5 +1,3 @@
-<?php require_once("../PizzaProject/htmlPizza/style.css") ?>
-
 <small>Our web-developers</small>
         <div class="developers">
          <div class="dev">
