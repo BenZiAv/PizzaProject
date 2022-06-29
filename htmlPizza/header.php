@@ -14,6 +14,6 @@
         <a href="https://www.independent.co.uk/topic/pizza"><i>Pizza News</i></a>
         <a href="#deals"><i>Hot deals</i></a>
 		<a href="/htmlPizza/Register.php">Register</a>
-		<a href="LogIn.html">Log In</a>
+		<a href="/htmlPizza/login.php">Log In</a>
 	  </div>
 

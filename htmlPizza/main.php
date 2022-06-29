@@ -11,6 +11,9 @@
            <a href="#deals"><i>Our deals</i></a>
         </div>
         <div>
+            <a href="/pizzaBackend/contactPizza.php"><i>Contact Us</i></a>
+        </div>
+        <div>
             <a href="#deals"><i>Hot deals</i></a>
         </div>
     </header>
@@ -21,8 +24,10 @@
         <ul><a href="#pizza"><i>Pizza</i></a></ul>
         <ul><a href="#Additives"><i>Additives</i></a></ul>
         <ul><a href="#deals"><i>Hot deals</i></a></ul>
+        <ul><a href=""><i>My orders</i></a></ul>
     </nav>
     <main>
+       
         <div id="deals">
             <div class="deal-conteiner">
                 <a href="#popupDeal">
