@@ -10,6 +10,7 @@ header, .developers{
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
+  background-color: goldenrod;
 }
 header div{
   padding: 10px;
@@ -77,6 +78,9 @@ a{
 }
 h5{
   font-size: 2em;
+  font-display:flex; 
+  justify-content: center;  
+  
 }
 .foto-developer{
     height: 50px;
@@ -279,3 +283,15 @@ main{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  /*------------------ Footer--------------------------------*/
+
+  #devops{
+    width: fit-content;
+    text-align: center;
+
+  }
+  .order .container{
+    text-align: center;
+  }
+  

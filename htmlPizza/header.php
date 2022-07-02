@@ -13,9 +13,9 @@
         <div class="navbar">
             <a href="./main.php"><i>Home</i></a>
             <a href="./order.php"><i>Order</i></a>
-            <a href="https://www.independent.co.uk/topic/pizza"><i>Pizza News</i></a>
-            <a href="#deals"><i>Hot deals</i></a>
-            <a href="/htmlPizza/register.php">Register</a>
+            <a href="https://www.independent.co.uk/topic/pizza"><i>Pizza News </i></a>
+            <a href="./main.php#deals"><i>Hot deals</i></a>
+            <a href="./register.php">Register</a>
             <a href="/htmlPizza/Login.php">Login</a>    
             <?php /*
             <div class="logo">

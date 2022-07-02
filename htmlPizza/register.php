@@ -1,8 +1,9 @@
 
 <?php
-    require_once('../src/config.php');
-    include '../src/inc/header.php'; 
+    /*require_once('../src/config.php');*/
+    include '/xampp/htdocs/PizzaProject/htmlPizza/header.php';
 ?>
+
 
 <body>
 <div>
@@ -31,22 +32,22 @@
                     <hr calss="mb-3">
 
                     <label for="firstName">First name:</label>
-                    <input class="form-control" id="firstName" type="text" name="firstName" required>
+                    <input class="form-control" id="firstName" type="text" name="firstName" required><br />
 
                     <label for="lastName">Last name:</label>
-                    <input class="form-control" id="lastName" type="text" name="lastName" required>
+                    <input class="form-control" id="lastName" type="text" name="lastName" required><br />
 
                     <label for="phonenumber">Phone-Number:</label>
-                    <input class="form-control" id="phonenumber" type="text" name="phonenumber" required>
+                    <input class="form-control" id="phonenumber" type="text" name="phonenumber" required><br />
 
                     <label for="mail">Email:</label>
-                    <input class="form-control" id="email" type="email" name="mail" required>
+                    <input class="form-control" id="email" type="email" name="mail" required><br />
 
                     <label for="passWord">Password:</label>
-                    <input class="form-control" id="password" type="password" name="passWord" required>
+                    <input class="form-control" id="password" type="password" name="passWord" required><br />
 
                     <label for="rePass">Re-password:</label>
-                    <input class="form-control" id="rePasswd" type="password" name="rePass" required>
+                    <input class="form-control" id="rePasswd" type="password" name="rePass" required><br />
 
                     <hr calss="mb-3">
                     
@@ -109,4 +110,4 @@
     });
 </script>
 
-<?php include '../src/inc/footer.php'; ?>
+<?php include '/xampp/htdocs/PizzaProject/htmlPizza/footer.php'; ?>
