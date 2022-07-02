@@ -1,31 +1,17 @@
-<?php include './header.php'; ?>
+<?php include '/xampp/htdocs/PizzaProject/htmlPizza/header.php'; ?>
 
 <body>
     <header id="header">
-
-        <span><img class="logo" src="../res/logo1.jpg" alt=""></span>      
-        <div>
-            <a href="/pizzaBackend/userForm.php"><i>Profile</i></a>
-        </div>
-        <div>
-            <a href="https://www.independent.co.uk/topic/pizza"><i>news of pizza</i></a>
-        </div>
-        <span><img class="logo" src="/res/logo1.jpg" alt=""></span>
-        <div>
-            <a href="#deals"><i>Our deals</i></a>
-        </div>
-        <div>
-            <a href="#deals"><i>Hot deals</i></a>
-        </div>
+      
     </header>
-    <div class="top"><a href="#header">^</a></div>
+    <div class="top"><a href="#header" class="a1">^</a></div>
 
 <div class="main-conteiner">
     <nav>
-        <ul><a href="#drinks"><i>Drinks</i></a></ul>
-        <ul><a href="#pizza"><i>Pizza</i></a></ul>
-        <ul><a href="#Additives"><i>Additives</i></a></ul>
         <ul><a href="#deals"><i>Hot deals</i></a></ul>
+        <ul><a href="#pizza"><i>Pizza</i></a></ul>
+        <ul><a href="#drinks"><i>Drinks</i></a></ul>
+        <ul><a href="#Additives"><i>Additives</i></a></ul>
         <ul><a href=""><i>My orders</i></a></ul>
     </nav>
     <main>
@@ -70,6 +56,7 @@
                 <h2>Large</h2>
                 <div><img class="pizza-foto" src="../res/pizzaL.jpg" alt="pizzaL"></div>
                 <p>50ש"ח</p></a>
+            </div>
 
             <div class="deal-conteiner">
                 <a href="popupPizza">
@@ -146,7 +133,7 @@
 </div>
 
     <footer>
-        <?php include './footer'; ?>
+        <?php include '/xampp/htdocs/PizzaProject/htmlPizza/footer.php'; ?>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="pizza.js"></script>

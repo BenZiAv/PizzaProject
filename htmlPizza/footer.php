@@ -1,4 +1,4 @@
-<small>Our web-developers</small>
+<h5>Our web-developers</h5>
         <div class="developers">
          <div class="dev">
               <h3>Egor</h3>
