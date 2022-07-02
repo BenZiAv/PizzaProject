@@ -2,9 +2,8 @@
 
 <body>
     <header id="header">
-<<<<<<< HEAD
+
         <span><img class="logo" src="../res/logo1.jpg" alt=""></span>      
-=======
         <div>
             <a href="/pizzaBackend/userForm.php"><i>Profile</i></a>
         </div>
@@ -12,7 +11,6 @@
             <a href="https://www.independent.co.uk/topic/pizza"><i>news of pizza</i></a>
         </div>
         <span><img class="logo" src="/res/logo1.jpg" alt=""></span>
->>>>>>> 4f2c9ea25975c532a621c0c71f1b153d09a5a074
         <div>
             <a href="#deals"><i>Our deals</i></a>
         </div>
@@ -21,7 +19,7 @@
         </div>
     </header>
     <div class="top"><a href="#header">^</a></div>
-<<<<<<< HEAD
+
 <div class="main-conteiner">
     <nav>
         <ul><a href="#drinks"><i>Drinks</i></a></ul>
@@ -72,7 +70,7 @@
                 <h2>Large</h2>
                 <div><img class="pizza-foto" src="../res/pizzaL.jpg" alt="pizzaL"></div>
                 <p>50ש"ח</p></a>
-=======
+
     <div class="main-conteiner">
         <nav>
             <ul><a href="#drinks"><i>Drinks</i></a></ul>
@@ -112,7 +110,7 @@
                         <p>200ש"ח<br>tree large pizza with cola + 6 Additives</p>
                     </a>
                 </div>
->>>>>>> 4f2c9ea25975c532a621c0c71f1b153d09a5a074
+
             </div>
             <h2>Create your pizza</h2>
             <div id="pizza">
@@ -124,7 +122,7 @@
                     </a>
                 </div>
 
-<<<<<<< HEAD
+
             <div class="deal-conteiner">
                 <a href="popupPizza">
                 <h2>personal</h2>
@@ -200,8 +198,9 @@
 </div>
 
     <footer>
-        <?php include './footer.php'; ?>
-=======
+    <?php include './footer.php'; ?>
+
+
                 <div class="deal-conteiner">
                     <a href="popupPizza">
                         <h2>Large</h2>
@@ -296,44 +295,7 @@
     </div>
 
     <footer>
-        <h1>Our web-developers</h1>
-        <div class="developers">
-            <div class="dev">
-                <div><img class="foto-developer" src="/res/ya.jpg" alt=""></div>
-                <h3>Egor</h3>
-                <p>tel: 0533756636</p>
-                <p><a href="facebooke.com"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                    <i class="fa-solid fa-envelope"></i>
-                </p>
-            </div>
-
-
-            <div class="dev">
-                <div><img class="foto-developer" src="/res/ross.jpg" alt=""></div>
-                <h3>Ross</h3>
-                <p>tel: 0504483162</p>
-                <p><a href="facebooke.com"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                    <i class="fa-solid fa-envelope"></i>
-                </p>
-            </div>
-
-
-            <div class="dev">
-                <div><img class="foto-developer"
-                        src="https://media-exp2.licdn.com/dms/image/C4D03AQGEKtimVnnCAQ/profile-displayphoto-shrink_800_800/0/1656070867578?e=1661385600&v=beta&t=tW-yYjI3mVhAuFgBNrRkr1K1omyZw0jAnbpftoHScDk"
-                        alt=""></div>
-                <h3>Ben</h3>
-                <p>tel: 0507744439</p>
-                <p><a href="facebooke.com"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                    <i class="fa-solid fa-envelope"></i>
-                </p>
-            </div>
-
-        </div>
->>>>>>> 4f2c9ea25975c532a621c0c71f1b153d09a5a074
+        <?php include './footer'; ?>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="pizza.js"></script>
