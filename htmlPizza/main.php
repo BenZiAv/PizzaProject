@@ -12,7 +12,7 @@
         <ul><a href="#pizza"><i>Pizza</i></a></ul>
         <ul><a href="#drinks"><i>Drinks</i></a></ul>
         <ul><a href="#Additives"><i>Additives</i></a></ul>
-        <ul><a href=""><i>My orders</i></a></ul>
+        <ul><a href="C:\xampp\htdocs\PizzaProject\htmlPizza\main.php"><i>My orders</i></a></ul>
     </nav>
     <main>
        

@@ -1,4 +1,4 @@
-<?php include '../src/inc/header.php'; ?>
+<?php include '/xampp/htdocs/PizzaProject/htmlPizza/header.php'; ?>
 <body>
     <h1>Make your order now!</h1>
     <form id="order" action="#order.php"> 
@@ -108,4 +108,4 @@
         <input type="submit" value="Submit Order">
     </form>
 
-<?php include '../src/inc/footer.php'; ?>
+    <?php include '/xampp/htdocs/PizzaProject/htmlPizza/footer.php'; ?>
