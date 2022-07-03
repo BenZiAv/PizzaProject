@@ -1,4 +1,12 @@
 <?php include '/xampp/htdocs/PizzaProject/htmlPizza/header.php'; ?>
+
+<style type="text/css">
+    #order #drinks h1 {
+        
+        text-align: center;
+    }
+</style>
+
 <body>
     <h1>Make your order now!</h1>
     <form id="order" action="#order.php"> 
@@ -8,7 +16,7 @@
             <option value="large">Large</option>
             <option value="xl">X-Large</option>
         </select>
-        </br></br>
+        </br>
         <h3>Whats on your pizza?</h3>
         </br>
         <div id="optins"> 
@@ -83,23 +91,23 @@
             <label for="op10a">Half Pizza</label>
             <input type="checkbox" id="op10b" name="op10b" value="all">
             <label for="op10b">All Pizza</label>
-        </br>
+        </br></br></br>
         </div>
         <h3>Drinks</h3>
-        <div id="drinks">
+        <div id="drink">
             <input type="checkbox" id="drink1" name="drink1" value="cocacola">
-            <label for="drink1">Coca-Cola</label>
+            <label for="drink1">Coca-Cola</label></br>
             <input type="checkbox" id="drink2" name="drink2" value="colazero">
-            <label for="drink2">Coca-Cola Zero</label>
+            <label for="drink2">Coca-Cola Zero</label></br>
             <input type="checkbox" id="drink3" name="drink3" value="sprite">
-            <label for="drink3">Sprite</label>
+            <label for="drink3">Sprite</label></br>
             <input type="checkbox" id="drink4" name="drink4" value="fanta">
-            <label for="drink4">Fanta</label>
+            <label for="drink4">Fanta</label></br>
             <input type="checkbox" id="drink5" name="drink5" value="grape">
-            <label for="drink5">Grape</label>
+            <label for="drink5">Grape</label></br>
             <input type="checkbox" id="drink6" name="drink6" value="orange">
-            <label for="drink6">Orange</label>
-        </div>
+            <label for="drink6">Orange</label></br>
+        </div></br></br></br>
         <input type="submit" value="Submit Order">
     </form>
 

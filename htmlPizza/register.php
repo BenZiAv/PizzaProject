@@ -1,6 +1,5 @@
 
 <?php
-    /*require_once('../src/config.php');*/
     include '/xampp/htdocs/PizzaProject/htmlPizza/header.php';
 ?>
 

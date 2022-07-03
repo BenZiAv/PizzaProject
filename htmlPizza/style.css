@@ -123,7 +123,12 @@ main{
     width: fit-content;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-
+    
+}
+#drink{
+  position: relative;    
+  grid-template-columns: auto auto auto auto auto;
+  
 }
 
 .deal-foto, .pizza-foto, .Drink-foto,.Additives-foto{
@@ -209,7 +214,19 @@ main{
         width: 100px;
         border-radius: 15px;
     }
-    form#order #optins #drinks{
+    /*#order{
+      display: block; margin: auto;
+    }
+    h1{
+      display: block; margin: auto;    }
+    #drinks{
+      display: block; margin: auto;
+    }*/
+
+    .col-sm-3{
+      text-align: center;
+    }
+    form#order {
       text-align: center;
     }
 
