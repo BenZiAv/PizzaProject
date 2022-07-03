@@ -30,13 +30,13 @@
                 <p>180ש"ח<br>two Huge pizza with 2 cola + 4 Additives</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupDeal">
+                <a href="#popupDeal">
                 <h2>personal</h2>
                 <div><img class="deal-foto" src="../res/isheet.jpg" alt="isheet"></div>
                 <p>45ש"ח<br>one small pizza with cola 0.5l + 1 Additive</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupDeal">
+                <a href="#popupDeal">
                 <h2>corparation Deal</h2>
                 <div><img class="deal-foto" src="../res/corparative.jpg" alt="corporative"></div>
                 <p>200ש"ח<br>tree large pizza with cola + 6 Additives</p></a>
@@ -45,21 +45,21 @@
         <h2>Create your pizza</h2>
         <div id="pizza">
             <div class="deal-conteiner">
-                <a href="popupPizza">
+                <a href="#popupPizza">
                 <h2>Huge</h2>
                 <div><img class="pizza-foto" src="../res/pizzaH.jpg" alt="pizzaH"></div>
                 <p>70ש"ח</p></a>
             </div>
 
             <div class="deal-conteiner">
-                <a href="popupPizza">
+                <a href="#popupPizza">
                 <h2>Large</h2>
                 <div><img class="pizza-foto" src="../res/pizzaL.jpg" alt="pizzaL"></div>
                 <p>50ש"ח</p></a>
             </div>
 
             <div class="deal-conteiner">
-                <a href="popupPizza">
+                <a href="#popupPizza">
                 <h2>personal</h2>
                 <div><img class="pizza-foto" src="../res/isheet2.jpg" alt="pizzaP"></div>
                 <p>35ש"ח</p></a>
@@ -67,31 +67,31 @@
         </div>
         <div id="drinks">
             <div class="deal-conteiner">
-                <a href="popupDrinks">
+                <a href="#popupDrinks">
                 <h2>Cola</h2>
                 <div><img class="Drink-foto" src="../res/cola.jpg" alt="cola"></div>
                 <p>12ש"ח</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupDrinks">
+                <a href="#popupDrinks">
                 <h2>Sprite</h2>
                 <div><img class="Drink-foto" src="../res/sprite.jpg" alt="sprite"></div>
                 <p>12ש"ח</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupDrinks">
+                <a href="#popupDrinks">
                 <h2>Juce</h2>
                 <div><img class="Drink-foto" src="../res/juce.jpg" alt="juce"></div>
                 <p>10ש"ח</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupDrinks">
+                <a href="#popupDrinks">
                 <h2>Fanta</h2>
                 <div><img class="Drink-foto" src="../res/isheet2.jpg" alt="pizzaP"></div>
                 <p>12ש"ח</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupDrinks">
+                <a href="#popupDrinks">
                 <h2>Nestea</h2>
                 <div><img class="Drink-foto" src="../res/nestea.jpg" alt="nestea"></div>
                 <p>9ש"ח</p></a>
@@ -99,31 +99,31 @@
         </div>
         <div id="Additives">
             <div class="deal-conteiner">
-                <a href="popupAdditives">
+                <a href="#popupAdditives">
                 <h2>mushrooms</h2>
                 <div><img class="Additives-foto" src="../res/mushrooms.jpg" alt="mushrooms"></div>
                 <p>5ש"ח</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupAdditives">
+                <a href="#popupAdditives">
                 <h2>onion</h2>
                 <div><img class="Additives-foto" src="../res/onion.jpg" alt="onion"></div>
                 <p>5ש"ח</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupAdditives">
+                <a href="#popupAdditives">
                 <h2>tuna</h2>
                 <div><img class="Additives-foto" src="../res/tuna.jpg" alt="tuna"></div>
                 <p>5ש"ח</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupAdditives">
+                <a href="#popupAdditives">
                 <h2>bulgarit</h2>
                 <div><img class="Additives-foto" src="../res/bulgarit.jpg" alt="bulgarit"></div>
                 <p>5ש"ח</p></a>
             </div>
             <div class="deal-conteiner">
-                <a href="popupAdditives">
+                <a href="#popupAdditives">
                 <h2>tomatto</h2>
                 <div><img class="Additives-foto" src="../res/tomatto.jpg" alt="tomatto"></div>
                 <p>5ש"ח</p></a>

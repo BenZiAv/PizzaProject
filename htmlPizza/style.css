@@ -102,13 +102,14 @@ margin: 10px;
     
 }
 nav{
-    width: 10%;
+    width: 20%;
     height: fit-content;
     position: relative;
     top: 220px;
     left: 0;
     float: left;
     z-index: 1;
+    font-size:x-large;
     
 }
 main{
@@ -125,7 +126,8 @@ main{
     grid-template-columns: auto auto auto auto auto;
     
 }
-#drink{
+#drink , h1{
+  text-align: center;
   position: relative;    
   grid-template-columns: auto auto auto auto auto;
   

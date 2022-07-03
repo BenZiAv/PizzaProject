@@ -1,12 +1,5 @@
 <?php include '/xampp/htdocs/PizzaProject/htmlPizza/header.php'; ?>
 
-<style type="text/css">
-    #order #drinks h1 {
-        
-        text-align: center;
-    }
-</style>
-
 <body>
     <h1>Make your order now!</h1>
     <form id="order" action="#order.php"> 
