@@ -231,6 +231,10 @@ main{
     form#order {
       text-align: center;
     }
+    .form{
+      margin-top: 30px;
+      text-align: center;
+    }
 
     /*----------- Header -----------*/
     	/* Navbar container */

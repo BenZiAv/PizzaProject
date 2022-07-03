@@ -108,5 +108,5 @@
 
     });
 </script>
-
+<br><br>
 <?php include '/xampp/htdocs/PizzaProject/htmlPizza/footer.php'; ?>
