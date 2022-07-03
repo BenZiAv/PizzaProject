@@ -209,7 +209,9 @@ main{
         width: 100px;
         border-radius: 15px;
     }
-
+    form#order #optins #drinks{
+      text-align: center;
+    }
 
     /*----------- Header -----------*/
     	/* Navbar container */

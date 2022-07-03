@@ -8,11 +8,10 @@
             <option value="large">Large</option>
             <option value="xl">X-Large</option>
         </select>
-        </br>
+        </br></br>
         <h3>Whats on your pizza?</h3>
         </br>
-        <div id="optins">
-            
+        <div id="optins"> 
             <a for="op1">Olives</a>
             <input type="checkbox" id="op1a" name="op1a" value="half">
             <label for="op1a"> Half Pizza</label>
