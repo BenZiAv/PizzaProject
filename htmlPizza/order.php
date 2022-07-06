@@ -1,8 +1,8 @@
-<?php include '/xampp/htdocs/PizzaProject/htmlPizza/header.php'; ?>
+<?php include 'header.php'; ?>
 
 <body>
     <h1>Make your order now!</h1>
-    <form id="order" action="#order.php"> 
+    <form id="order" action="myOrder.php" method="POST"> 
         <select name="pizzaSize" id="pizzaSize">
             <option value="small">Small</option>
             <option value="medium">Medium</option>
@@ -14,75 +14,75 @@
         </br>
         <div id="optins"> 
             <a for="op1">Olives</a>
-            <input type="checkbox" id="op1a" name="op1a" value="half">
+            <input type="checkbox" id="op1" name="op1" value="half">
             <label for="op1a"> Half Pizza</label>
-            <input type="checkbox" id="op1b" name="op1b" value="all">
+            <input type="checkbox" id="op1" name="op1" value="all">
             <label for="op1b">All Pizza</label>
         </br>
             
             <a for="op2">Mushrooms</a>
-            <input type="checkbox" id="op2a" name="op2a" value="half">
+            <input type="checkbox" id="op2" name="op2" value="half">
             <label for="op2a">Half Pizza</label>
-            <input type="checkbox" id="op2b" name="op2b" value="all">
+            <input type="checkbox" id="op2" name="op2" value="all">
             <label for="op2b">All Pizza</label>
         </br>
             
             <a for="op3">Onion</a>
-            <input type="checkbox" id="op3a" name="op3a" value="half">
+            <input type="checkbox" id="op3" name="op3" value="half">
             <label for="op3a">Half Pizza</label>
-            <input type="checkbox" id="op3b" name="op13" value="all">
+            <input type="checkbox" id="op3" name="op3" value="all">
             <label for="op3b">All Pizza</label>
         </br>
 
             <a for="op4">Double Cheese</a>
-            <input type="checkbox" id="op4a" name="op4a" value="half">
+            <input type="checkbox" id="op4" name="op4" value="half">
             <label for="op4a">Half Pizza</label>
-            <input type="checkbox" id="op4b" name="op4b" value="all">
+            <input type="checkbox" id="op4" name="op4" value="all">
             <label for="op4b">All Pizza</label>
         </br>
             
             <a for="op5">Tuna</a>
-            <input type="checkbox" id="op5a" name="op5a" value="half">
+            <input type="checkbox" id="op5" name="op5" value="half">
             <label for="op5a">Half Pizza</label>
-            <input type="checkbox" id="op5b" name="op5b" value="all">
+            <input type="checkbox" id="op5" name="op5" value="all">
             <label for="op5b">All Pizza</label>
         </br>
             
-            <a for="op1">Olives</a>
-            <input type="checkbox" id="op1a" name="op1a" value="half">
+            <a for="op6">Olives2</a>
+            <input type="checkbox" id="op6" name="op6" value="half">
             <label for="op1a">Half Pizza</label>
-            <input type="checkbox" id="op1b" name="op1b" value="all">
+            <input type="checkbox" id="op6" name="op6" value="all">
             <label for="op1b">All Pizza</label>
         </br>
             
-            <a for="op6">Corn</a>
-            <input type="checkbox" id="op6a" name="op6a" value="ha6f">
+            <a for="op7">Corn</a>
+            <input type="checkbox" id="op7" name="op7" value="ha6f">
             <label for="op6a">Half Pizza</label>
-            <input type="checkbox" id="op6b" name="op6b" value="all">
+            <input type="checkbox" id="op7" name="op7" value="all">
             <label for="op6b">All Pizza</label>
         </br>
-            <a for="op7">Pineaple</a>
-            <input type="checkbox" id="op7a" name="op7a" value="half">
+            <a for="op8">Pineaple</a>
+            <input type="checkbox" id="op8" name="op8" value="half">
             <label for="op7a">Half Pizza</label>
-            <input type="checkbox" id="op7b" name="op7b" value="all">
+            <input type="checkbox" id="op8" name="op8" value="all">
             <label for="op7b">All Pizza</label>
         </br>
-            <a for="op8">Chedder</a>
-            <input type="checkbox" id="op8a" name="op8a" value="half">
+            <a for="op9">Chedder</a>
+            <input type="checkbox" id="op9" name="op9" value="half">
             <label for="op8a">Half Pizza</label>
-            <input type="checkbox" id="op8b" name="op8b" value="all">
+            <input type="checkbox" id="op9" name="op9" value="all">
             <label for="op8b">All Pizza</label>
         </br>
-            <a for="op9">Eggplant</a>
-            <input type="checkbox" id="op9a" name="op9a" value="half">
+            <a for="op10">Eggplant</a>
+            <input type="checkbox" id="op10" name="op10" value="half">
             <label for="op9a">Half Pizza</label>
-            <input type="checkbox" id="op9b" name="op9b" value="all">
+            <input type="checkbox" id="op10" name="op10" value="all">
             <label for="op9b">All Pizza</label>
         </br>
-            <a for="op1">Black Olives</a>
-            <input type="checkbox" id="op10a" name="op10a" value="half">
+            <a for="op11">Black Olives</a>
+            <input type="checkbox" id="op11" name="op11" value="half">
             <label for="op10a">Half Pizza</label>
-            <input type="checkbox" id="op10b" name="op10b" value="all">
+            <input type="checkbox" id="op11" name="op11" value="all">
             <label for="op10b">All Pizza</label>
         </br></br></br>
         </div>
@@ -101,7 +101,7 @@
             <input type="checkbox" id="drink6" name="drink6" value="orange">
             <label for="drink6">Orange</label></br>
         </div></br></br></br>
-        <input type="submit" value="Submit Order">
+        <input type="submit" name="addOrder" value="Submit Order">
     </form>
 
-    <?php include '/xampp/htdocs/PizzaProject/htmlPizza/footer.php'; ?>
+    <?php include 'footer.php'; ?>
