@@ -7,7 +7,7 @@
 <body>
 <div>
     <?php
-    if (isset($_POST['creatUser'])){
+    if (isset($_POST['createUser'])){
         $firstname=     $_POST['firstName'];
         $lastname=      $_POST['lastName'];
         $phonenumber=   $_POST['phonenumber'];
@@ -29,27 +29,26 @@
                 <div class="col-sm-3">
                     <h1>Sign Up</h1>
                     <hr calss="mb-3">
-
+                    <p style="color:red;">* required field</p>
                     <label for="firstName">First name:</label>
-                    <input class="form-control" id="firstName" type="text" name="firstName" required><br />
+                    <input class="form-control" id="firstName" type="text" name="firstName" required><br/>
 
                     <label for="lastName">Last name:</label>
-                    <input class="form-control" id="lastName" type="text" name="lastName" required><br />
+                    <input class="form-control" id="lastName" type="text" name="lastName" required><br/>
 
                     <label for="phonenumber">Phone-Number:</label>
-                    <input class="form-control" id="phonenumber" type="text" name="phonenumber" required><br />
+                    <input class="form-control" id="phonenumber" type="text" name="phonenumber" required><br/>
 
                     <label for="mail">Email:</label>
-                    <input class="form-control" id="email" type="email" name="mail" required><br />
+                    <input class="form-control" id="email" type="email" name="mail" required><br/>
 
                     <label for="passWord">Password:</label>
-                    <input class="form-control" id="password" type="password" name="passWord" required><br />
+                    <input class="form-control" id="password" type="password" name="passWord" required><br/>
 
                     <label for="rePass">Re-password:</label>
-                    <input class="form-control" id="rePasswd" type="password" name="rePass" required><br />
+                    <input class="form-control" id="rePasswd" type="password" name="rePass" required><br/>
 
                     <hr calss="mb-3">
-                    
                     <input class="btn btn-primary" type="button" id="register" name="creatUser" value="Sign Up">
                 </div>
             </div>

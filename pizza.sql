@@ -1,18 +1,15 @@
-create table users (userID char(8) UNIQUE not null, password char(12)not null,
-                    name char(25) not null,fname char(25),mail char(40) not null,
-                    tell INTEGER not null,city char(20),street char(25),flat char(4),
-					primary key(mail,password));
+CREATE TABLE users (userID INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY, password VARCHAR(12)not null,
+                    firstName VARCHAR(12) NOT NULL, lastName VARCHAR(25) NOT NULL, eMail VARCHAR(25) NOT NULL,
+                    phoneNumber INT(10) NOT NULL,
+					PRIMARY KEY(eMail));
 					   
 
-create table orders (orderID char(8) UNIQUE not null, userID char(8),
-                     pizzaName char(10),P_quantity char(2),
-					 additorName char(15),A_quantity char(2),
-					 drinkName char(10),D_quantity char(2),
-					 dealID char(5),dealQuantity char(2),
-					 FOREIGN key(userID)REFERENCES users(userID),
-					 FOREIGN key(pizzaName)REFERENCES pizzaSize(pizzaName),
-					 FOREIGN key(additorName)REFERENCES additors(additorName),
-					 FOREIGN key(drinkName)REFERENCES drinks(drinkName),
-					 FOREIGN key(dealID)REFERENCES deals(dealID),
-					 PRIMARY key(orderID,userID));				 
-
+CREATE TABLE orders (orderID INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY, userID INT(10),
+                     pizzaName VARCHAR(10),P_quantity INT(10),
+					 additorName VARCHAR(15),A_quantity INT(10),
+					 drinkName VARCHAR(10),D_quantity INT(10),
+					 PRIMARY KEY(orderID,userID),
+					 FOREIGN KEY(userID)REFERENCES users(userID),
+					 FOREIGN KEY(pizzaName)REFERENCES pizzaSize(pizzaName),
+					 FOREIGN KEY(additorName)REFERENCES additors(additorName),
+					 FOREIGN KEY(drinkName)REFERENCES drinks(drinkName));
