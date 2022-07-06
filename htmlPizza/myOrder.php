@@ -3,6 +3,7 @@
 
     if(isset($_POST['addOrder'])){
         $size = $_POST['pizzaSize'];
+        if(empty($size)) $size = "None";
         $option1 = $_POST['op1'];
         if(empty($option1)) $option1 = "None";
         $option2 = $_POST['op2'];
@@ -26,10 +27,10 @@
         $option11 = $_POST['op11'];
         if(empty($option11)) $option11 = "None";
 
-        $drinks = $_POST['drink1'];
+        $drinks = $_POST['drink1'].",".$_POST['drink2'].",".$_POST['drink3'].",".$_POST['drink4'].",".$_POST['drink5'].",".$_POST['drink6'];
         if(empty($drinks)) $drinks = "None";
 
-        $query = "INSERT INTO orders (Olives,Mushroom,Onion,DoubleCheese,Tuna,Olives2,Corn,Pineaple,Chedder,Eggplant,BlackOlives,Drinks) VALUES ('$option1','$option2','$option3','$option4','$option5','$option6','$option7','$option8','$option9','$option10','$option11','$drinks')";
+        $query = "INSERT INTO orders (Size,Olives,Mushroom,Onion,DoubleCheese,Tuna,Olives2,Corn,Pineaple,Chedder,Eggplant,BlackOlives,Drinks) VALUES ('$Size','$option1','$option2','$option3','$option4','$option5','$option6','$option7','$option8','$option9','$option10','$option11','$drinks')";
         $query_run = mysqli_query($con, $query);
 
         if ($query_run){
